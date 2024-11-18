@@ -1,0 +1,65 @@
+/*ESTILO DEL HEADER*/
+
+header {
+    background-color: #e6f7ff;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    margin: 20px;
+    max-width: calc(100% - 40px);
+    width: auto;
+}
+
+header img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/*FIN DEL ESTILO DEL HEADER*/
+
+body {
+    background-color: #63A6A1;
+    color: #403834;
+}
+
+h1 {
+    color: #917263;
+}
+
+form {
+    background-color: #403834;
+    color: #ffffff;
+}
+
+input {
+    background-color: #917263;
+    color: #ffffff;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+button {
+    background-color: #63A6A1;
+    border-color: #917263;
+}
+
+a {
+    color: #917263;
+}
+
+.login {
+    height: 85vh;
+}
+
+footer {
+    height: 15vh;
+}
+
+td img {
+    width: 75px;
+}
